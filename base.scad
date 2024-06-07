@@ -155,8 +155,8 @@ module base()
                 }
                 translate([-0.01, -0.01])
                 square([iz + 0.02 + 10, iy + 0.02]);
-                translate([under + pcbt - 0.01, -8]) 
-                square([15, 10]);
+                translate([under + pcbt - 0.01 - gap, -8]) 
+                square([15 + gap * 2, 10]);
             }
         }
 
